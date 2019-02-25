@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DB7908B-12DF-4E52-A9D2-075ACEA49F86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DBMS14.My.MyApplication</StartupObject>
+    <RootNamespace>DBMS14</RootNamespace>
+    <AssemblyName>DBMS14</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DBMS14.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DBMS14.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADDMIN.Designer.vb">
+      <DependentUpon>ADDMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADDMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER.Designer.vb">
+      <DependentUpon>CASHIER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIERING.Designer.vb">
+      <DependentUpon>CASHIERING.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIERING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chicken.Designer.vb">
+      <DependentUpon>chicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHICKENDEATHS.Designer.vb">
+      <DependentUpon>CHICKENDEATHS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHICKENDEATHS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COWSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>COWSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER ACCOUNT.Designer.vb">
+      <DependentUpon>CUSTOMER ACCOUNT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER ACCOUNT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer.Designer.vb">
+      <DependentUpon>customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eqipmentpurchases.Designer.vb">
+      <DependentUpon>eqipmentpurchases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eqipmentpurchases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipment.Designer.vb">
+      <DependentUpon>equipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feed.Designer.vb">
+      <DependentUpon>feed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedpurchase.Designer.vb">
+      <DependentUpon>feedpurchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feedpurchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="johnDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>johnDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="johnDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>johnDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicine.Designer.vb">
+      <DependentUpon>medicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medicinee.Designer.vb">
+      <DependentUpon>medicinee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medicinee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="products.Designer.vb">
+      <DependentUpon>products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchases.Designer.vb">
+      <DependentUpon>purchases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.vb">
+      <DependentUpon>sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STOCKS.Designer.vb">
+      <DependentUpon>STOCKS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STOCKS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transact.Designer.vb">
+      <DependentUpon>transact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER.Designer.vb">
+      <DependentUpon>USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADDMIN.resx">
+      <DependentUpon>ADDMIN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER.resx">
+      <DependentUpon>CASHIER.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIERING.resx">
+      <DependentUpon>CASHIERING.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chicken.resx">
+      <DependentUpon>chicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHICKENDEATHS.resx">
+      <DependentUpon>CHICKENDEATHS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER ACCOUNT.resx">
+      <DependentUpon>CUSTOMER ACCOUNT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eqipmentpurchases.resx">
+      <DependentUpon>eqipmentpurchases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipment.resx">
+      <DependentUpon>equipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feed.resx">
+      <DependentUpon>feed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedpurchase.resx">
+      <DependentUpon>feedpurchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medicine.resx">
+      <DependentUpon>medicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medicinee.resx">
+      <DependentUpon>medicinee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="products.resx">
+      <DependentUpon>products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchases.resx">
+      <DependentUpon>purchases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STOCKS.resx">
+      <DependentUpon>STOCKS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transact.resx">
+      <DependentUpon>transact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER.resx">
+      <DependentUpon>USER.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="COWSDataSet.xsc">
+      <DependentUpon>COWSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="COWSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>COWSDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="COWSDataSet.xss">
+      <DependentUpon>COWSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="johnDataSet.xsc">
+      <DependentUpon>johnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="johnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>johnDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="johnDataSet.xss">
+      <DependentUpon>johnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="johnDataSet1.xsc">
+      <DependentUpon>johnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="johnDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>johnDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="johnDataSet1.xss">
+      <DependentUpon>johnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="COWS.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
